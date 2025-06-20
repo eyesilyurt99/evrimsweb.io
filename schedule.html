@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Fitness Studio - Contact & Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #001F3F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        form {
+            margin-top: 20px;
+            max-width: 600px;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #001F3F;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ABC Fitness Studio</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="classes.html">Classes & Schedule</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>About Us</h2>
+    <p>ABC Fitness Studio is a local fitness haven specializing in a diverse range of classes, including yoga, Pilates, and Zumba, all geared toward promoting a healthy and active lifestyle. We are committed to fostering physical and mental wellness in our community.</p>
+    <p><strong>Business Hours:</strong></p>
+    <ul>
+        <li>Monday–Friday: 6 a.m. to 8 p.m.</li>
+        <li>Saturday: 8 a.m. to 6 p.m.</li>
+        <li>Sunday: Closed</li>
+    </ul>
+
+    <h2>Client Feedback & Custom Orders</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message / Feedback / Custom Order:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Class Schedule</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Class</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Yoga</td>
+            <td>8:00 AM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Pilates</td>
+            <td>7:30 AM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Zumba</td>
+            <td>8:00 AM</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Yoga</td>
+            <td>9:00 AM</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
