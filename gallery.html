@@ -1,192 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC Fitness Studio - Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #001F3F;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-        }
-        .cart-button {
-            float: right;
-            background-color: #004080;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        .item-card {
-            border: 1px solid #ccc;
-            padding: 15px;
-            text-align: center;
-        }
-        .item-card img {
-            height: 150px;
-            width: auto;
-        }
-        .item-card button {
-            margin-top: 10px;
-            padding: 10px 15px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABC Fitness Studio - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-    <h1>ABC Fitness Studio - Gallery</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="classes.html">Classes & Schedule</a>
-        <a href="about.html">About</a>
-    </nav>
+  <div class="header-left">
+    <img src="logo.png" alt="ABC Fitness Studio Logo" class="logo" />
+    <h1>ABC Fitness Studio</h1>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="classes.html">Classes & Schedule</a>
+    <a href="about.html">About</a>
+  </nav>
 </header>
 
-<div class="container">
-    <button class="cart-button">View Shopping Cart</button>
-
-    <h2>Shop Our Products</h2>
-    <div class="grid">
-        <div class="item-card">
-            <img src="mat.jpg" alt="Yoga Mat">
-            <p>Durable non-slip yoga mat for all your stretching and strengthening needs.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="item-card">
-            <img src="dumbbell.jpg" alt="Dumbbells">
-            <p>Set of 10 lb dumbbells, perfect for strength training at home or in the studio.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="item-card">
-            <img src="waterbottle.jpg" alt="Water Bottle">
-            <p>Insulated stainless steel water bottle to keep you hydrated throughout your workout.</p>
-            <button>Add to Cart</button>
-        </div>
+<div class="main">
+  <h2 class="gallery-title">Gallery: Fitness Activities & Products</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/IndividualYoga.png" alt="Individual yoga session">
+      <p>Individual yoga session</p>
     </div>
+
+    <div class="gallery-item">
+      <img src="images/GroupYoga.png" alt="Group yoga session">
+      <p>Group yoga session</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/IndividualPilates.png" alt="Individual Pilates session">
+      <p>Individual Pilates session</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/GroupPilates.png" alt="Group Pilates session">
+      <p>Group Pilates session</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/IndividualKickboxing.png" alt="Individual kickboxing session">
+      <p>Individual kickboxing session</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/GroupKickboxing.png" alt="Group kickboxing session">
+      <p>Group kickboxing session</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/YogaMat.png" alt="Yoga mat">
+      <p>Yoga mat</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/WaterBottle.jpg" alt="Water bottle">
+      <p>Water bottle</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/TeeShirt.png" alt="Tee shirt">
+      <p>Tee shirt</p>
+    </div>
+  </div>
 </div>
 
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC Fitness Studio - Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #001F3F;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-        }
-        .cart-button {
-            float: right;
-            background-color: #004080;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        .item-card {
-            border: 1px solid #ccc;
-            padding: 15px;
-            text-align: center;
-        }
-        .item-card img {
-            height: 150px;
-            width: auto;
-        }
-        .item-card button {
-            margin-top: 10px;
-            padding: 10px 15px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>ABC Fitness Studio - Gallery</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="classes.html">Classes & Schedule</a>
-        <a href="about.html">About</a>
-    </nav>
-</header>
-
-<div class="container">
-    <button class="cart-button">View Shopping Cart</button>
-
-    <h2>Shop Our Products</h2>
-    <div class="grid">
-        <div class="item-card">
-            <img src="mat.jpg" alt="Yoga Mat">
-            <p>Durable non-slip yoga mat for all your stretching and strengthening needs.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="item-card">
-            <img src="dumbbell.jpg" alt="Dumbbells">
-            <p>Set of 10 lb dumbbells, perfect for strength training at home or in the studio.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="item-card">
-            <img src="waterbottle.jpg" alt="Water Bottle">
-            <p>Insulated stainless steel water bottle to keep you hydrated throughout your workout.</p>
-            <button>Add to Cart</button>
-        </div>
-    </div>
-</div>
+<footer>
+  <div class="newsletter">
+    <h3>Subscribe to Our Newsletter</h3>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+  </div>
+  <div class="social-icons">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="classes.html">Classes & Schedule</a>
+    <a href="about.html">About</a>
+  </nav>
+</footer>
 
 </body>
 </html>
